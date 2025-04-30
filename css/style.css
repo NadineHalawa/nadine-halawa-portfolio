@@ -1,8 +1,8 @@
 /* General Styles */
 body {
   font-family: 'Poppins', sans-serif;
-  color: #0c0c0c;
-  background-color: #ffffff;
+  color: #0c0c0c; /* Default text color */
+  background-color: #ffffff; /* Default background color */
 }
 
 /* Layout Padding Classes */
@@ -139,13 +139,13 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  color: #ffffff;
+  color: #ffffff; /* White text for headings */
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .slider_section .detail-box p {
-  color: #ffffff;
+  color: #ffffff; /* White text for descriptions */
   margin-top: 15px;
 }
 
@@ -312,9 +312,6 @@ a:focus {
 .freelance_section .tab_container .t-link-box .img-box {
   width: 90px;
   height: 90px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #1a2e35;
   border-radius: 100%;
   margin-right: 35px;
@@ -359,6 +356,7 @@ a:focus {
   padding: 8px 40px;
   background-color: #ff4f5a;
   color: #ffffff;
+  transition: all 0.3s;
   border: 1.5px solid #ffffff;
   border-radius: 0;
   margin-top: 15px;
